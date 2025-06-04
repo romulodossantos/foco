@@ -1,0 +1,14 @@
+# Configuração do Dart analyzer para este projeto Flutter.
+# Ele verifica erros, avisos e estilo do código Dart.
+
+linter:
+  # Regras de lint (avisos e sugestões) aplicadas ao projeto.
+  rules:
+    # Permite o uso do 'print' sem avisos (útil para debug).
+    avoid_print: false
+
+    # Prefere aspas simples para strings.
+    prefer_single_quotes: true
+
+    # Desabilita o aviso para usar construtores const quando possível.
+    prefer_const_constructors: false

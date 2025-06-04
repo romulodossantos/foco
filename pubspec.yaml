@@ -1,0 +1,29 @@
+# Nome do aplicativo
+name: foco
+
+# Descrição breve do aplicativo
+description: App de tarefas com gráfico de progresso
+
+# Publicação desativada (não será publicado no pub.dev)
+publish_to: 'none'
+
+# Definição do ambiente Dart e versões compatíveis do SDK
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+# Dependências necessárias para o projeto
+dependencies:
+  flutter:
+    sdk: flutter  # Usa o SDK Flutter oficial
+
+  shared_preferences: ^2.1.1  # Biblioteca para salvar dados localmente no dispositivo
+  pie_chart: ^5.4.0           # Biblioteca para criar gráficos de pizza facilmente
+
+# Dependências para desenvolvimento e testes
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# Configurações específicas do Flutter
+flutter:
+  uses-material-design: true  # Indica que o projeto usa widgets com Material Design

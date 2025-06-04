@@ -1,5 +1,9 @@
 # foco
 
+App de tarefas com gráfico de progresso
+
+---
+
 A new Flutter project.
 
 ## Getting Started

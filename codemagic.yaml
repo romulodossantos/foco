@@ -4,9 +4,6 @@ workflows:
     max_build_duration: 60
     environment:
       flutter: stable
-      android:
-        build_tools: 33.0.0
-        target_sdk: 33
     scripts:
       - name: Install dependencies
         script: flutter pub get
@@ -16,7 +13,3 @@ workflows:
         script: flutter build apk --release
     artifacts:
       - build/app/outputs/flutter-apk/app-release.apk
-    publishing:
-      email:
-        recipients:
-          - seu-email@exemplo.com
